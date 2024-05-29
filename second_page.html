@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baper Bank</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="heading_title1">welcome to our <span class="heading_title">baper bank</span> !!!</h1>
+    <div class="deposite_section">
+        <div class="deposite">
+            <span>Deposit</span> 
+            <p>$ <span id="current-deposit">00</span></p>
+        </div>
+        
+        <div class="Withdraw">
+            <span>Withdraw</span>
+            <p>$ <span id="current-withdraw">00</span></p>
+        </div>
+        
+        <div class="Balance">
+            <span>Balance</span> 
+            <p>$ <span id="current-balance">00</span></p>
+        </div>
+    </div>
+    <div class="Withdraw_section">
+        <div class="please_deposit"><p>Please Deposit</p>
+            <input type="number" placeholder="Enter your deposit money" id="deposit-amount"><br>
+            <input type="submit" value="Deposit" class="deposit_btn">
+        </div>
+        
+        <div class="please_withdraw"><p>Please Withdraw</p>
+            <input type="number" placeholder="Enter your withdraw money" id="withdraw-amount"><br>
+            <input type="submit" value="Withdraw" class="withdraw_btn">
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
